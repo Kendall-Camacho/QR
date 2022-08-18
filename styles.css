@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: var(--color-primary);
+	overflow: hidden;
+}
+:root {
+	--color-primary: #f2f2f2;
+	--color-secondary: #000c18;
+	--color-tertiary: #3e14b2;
+	--color-quaternary: #dcd8d8;
+	--color-quinary: #fff;
+}
+.dark-theme {
+	--color-primary: #000c18;
+	--color-secondary: #f2f2f2;
+	--color-tertiary: #c50417;
+	--color-quaternary: #303443;
+	--color-quinary: #fff;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	max-width: 100%;
+	width: 400px;
+	margin: 80px auto;
+}
+
+
+
+.formulario input[type='text'] {
+	padding: 20px;
+	border: none;
+	background: var(--color-quaternary);
+	width: 100%;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btn {
+	width: 100%;
+	border: none;
+	background: var(--color-tertiary);
+	color: var(--color-quinary);
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedorQR {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px 20px 0px;
+	padding: 20px 0px 20px 0px;
+	background-color: var(--color-quaternary);
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.header img {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background-color: var(--color-primary);
+}
